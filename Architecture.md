@@ -15,3 +15,10 @@ How to host an LLM Model - both
 How to operate AWS - both
 How to use Ollama - both
 
+Plan of Action 11/13/25
+-Finish Ollama Tutorial for Both Finish b
+-Go through the Docker tutorial to run an LLM locally. 
+-Become confortable with working with Virtual Environments
+-Build a Docker Container and install Ollama with it
+-Find a way to gather necessary data
+
