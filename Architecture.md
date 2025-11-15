@@ -23,8 +23,8 @@ Plan of Action 11/13/25
 -Find a way to gather necessary data
 
 Plan of Action 11/15/25
--Figure out how to use docker with ollama
--Use OpenAI on VS code and get the prompt working
--Find a way to gather necessary data-(prompt the LLM for that)
--Create a function that calculates how long results for a certain prompt take to generate
--Kamalika-fix my code
+-Figure out how to use docker with ollama<br>
+-Use OpenAI on VS code and get the prompt working<br>
+-Find a way to gather necessary data-(prompt the LLM for that)<br>
+-Create a function that calculates how long results for a certain prompt take to generate<br>
+-Kamalika-fix my code<br>
