@@ -22,3 +22,9 @@ Plan of Action 11/13/25
 -Build a Docker Container and install Ollama with it
 -Find a way to gather necessary data
 
+Plan of Action 11/15/25
+-Figure out how to use docker with ollama
+-Use OpenAI on VS code and get the prompt working
+-Find a way to gather necessary data-(prompt the LLM for that)
+-Create a function that calculates how long results for a certain prompt take to generate
+-Kamalika-fix my code
