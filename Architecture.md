@@ -22,7 +22,7 @@ Plan of Action 11/13/25
 -Build a Docker Container and install Ollama with it
 -Find a way to gather necessary data
 
-Plan of Action 11/15/25
+Plan of Action 11/15/25<br>
 -Figure out how to use docker with ollama<br>
 -Use OpenAI on VS code and get the prompt working<br>
 -Find a way to gather necessary data-(prompt the LLM for that)<br>
