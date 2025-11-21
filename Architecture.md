@@ -28,3 +28,10 @@ Plan of Action 11/15/25
 -Find a way to gather necessary data-(prompt the LLM for that)<br>
 -Create a function that calculates how long results for a certain prompt take to generate<br>
 -Kamalika-fix my code<br>
+
+Plan of Action 11/20/25
+-Learn about SeaBornLibrary<br>
+-Learn about Pandas<br>
+-Find paper about other people who tried making graphs with Bpytop.<br>
+-Figure out how to translate Bpytop data into something a program can read.<br> 
+-How do we create a usable dataset from Bpytop information?<br>
