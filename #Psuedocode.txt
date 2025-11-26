@@ -1,0 +1,9 @@
+#Psuedocode 
+
+#User inputs a prompt that an AI model could use.
+
+#Application runs the ollama model and asks it the prompt. 
+
+#Application runs bpytop and puts data in a .csv file
+
+#Application looks at .csv file and makes graphs out of it for easy readability.
