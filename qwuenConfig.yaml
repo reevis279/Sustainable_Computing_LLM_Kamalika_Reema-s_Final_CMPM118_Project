@@ -1,0 +1,18 @@
+
+#have a config file here to use qwen2.5-coder 3b model in lmstudio
+#https://hub.continue.dev/lmstudio/qwen2.5-coder-3b?view=config
+
+---
+name: qwen2.5-coder 3b
+version: 1.2.0
+schema: v1
+models:
+- name: qwen2.5-coder 3b
+  provider: lmstudio
+  model: qwen/qwen2.5-coder-3b
+  roles:
+    - apply
+    - autocomplete
+    - chat
+    - edit
+
