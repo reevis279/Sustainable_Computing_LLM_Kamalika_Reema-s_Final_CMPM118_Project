@@ -17,6 +17,10 @@ prompt = input("Enter your prompt: ")
 
 #If ollama is installed, ask it the prompt.
 import ollama #error here, even though I have ollama installed
+#Figure out how to run inside virtual environment later to fix
+
+#Work on the below later
+#import subprocess.run(["python",tutorialForSubprocesses.py])
 
 response = ollama.chat(model='mistral', messages=[
   {
