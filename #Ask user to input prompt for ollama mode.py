@@ -25,10 +25,22 @@ import ollama #error here, even though I have ollama installed
 #Work on the below later
 #import subprocess.run(["python",tutorialForSubprocesses.py])
 
-response = ollama.chat(model='mistral', messages=[
+response = ollama.chat(model='gemma:2b', messages=[ #If I'm working with ollama in virtual environment, error on this line. 
   {
     'role': 'user',
     'content': prompt,
   },
 ])
+print("Model is gemma:2b\n")
 print(response['message']['content'])
+
+response = ollama.chat(model='ipe:latest', messages=[ #If I'm working with ollama in virtual environment, error on this line. 
+  {
+    'role': 'user',
+    'content': prompt,
+  },
+])
+print("Model is ipe:latest\n")
+print(response['message']['content'])
+
+
