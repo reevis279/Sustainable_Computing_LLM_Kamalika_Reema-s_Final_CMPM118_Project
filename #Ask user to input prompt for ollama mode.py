@@ -6,7 +6,7 @@
 #Ask user to input promt for ollama model
 print("Give me a prompt and I'll tell you how much power ollama takes to answer it.")
 prompt = input("Enter your prompt: ")
-#print("This is prompt:", prompt)
+print(f"You entered: {prompt}")
 
 #Get this application to check if ollama is installed.
 #Probably have to use subprocess to run a command line instruction to check if ollama is installed.
@@ -25,22 +25,22 @@ import ollama #error here, even though I have ollama installed
 #Work on the below later
 #import subprocess.run(["python",tutorialForSubprocesses.py])
 
-response = ollama.chat(model='gemma:2b', messages=[ #If I'm working with ollama in virtual environment, error on this line. 
+response = ollama.chat(model='gemma:2b', messages=[  
   {
     'role': 'user',
     'content': prompt,
   },
 ])
-print("Model is gemma:2b\n")
+print("\nModel is gemma:2b\n")
 print(response['message']['content'])
 
-response = ollama.chat(model='ipe:latest', messages=[ #If I'm working with ollama in virtual environment, error on this line. 
+response = ollama.chat(model='ipe:latest', messages=[ 
   {
     'role': 'user',
     'content': prompt,
   },
 ])
-print("Model is ipe:latest\n")
+print("\nModel is ipe:latest\n")
 print(response['message']['content'])
 
 
