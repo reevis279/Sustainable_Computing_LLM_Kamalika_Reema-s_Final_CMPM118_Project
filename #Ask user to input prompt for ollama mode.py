@@ -1,7 +1,8 @@
 
 ##Make sure to run this code within a virtual environment in WSL because that's where ollama is installed.
 
-
+from ollama import chat
+from ollama import ChatResponse
 #First make sure to run this code within a virtual environment
 #Ask user to input promt for ollama model
 print("Give me a prompt and I'll tell you how much power ollama takes to answer it.")
