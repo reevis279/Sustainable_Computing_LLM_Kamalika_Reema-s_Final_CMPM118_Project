@@ -79,7 +79,7 @@ response = ollama.chat(model='gemma3:latest', messages=[
 monitoring_active = False
 monitor_thread.join()
 
-print("\nModel is gemma:2b\n")
+print("\nModel is gemma3:latest\n")
 print(response['message']['content'])
 
 print("\n\n#####################################################")

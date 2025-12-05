@@ -1,3 +1,4 @@
+import ollama
 from ollama import chat
 from ollama import ChatResponse
 import psutil
