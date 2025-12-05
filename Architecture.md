@@ -35,3 +35,8 @@ Plan of Action 11/20/25
 -Find paper about other people who tried making graphs with Bpytop.<br>
 -Figure out how to translate Bpytop data into something a program can read.<br> 
 -How do we create a usable dataset from Bpytop information?<br>
+
+Plan of Action 12/4/25<br>
+-Use SeaBorn Library for graph<br>
+-Make python script to authomate processs<br>
+-work on slide show <br>
