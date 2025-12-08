@@ -5,6 +5,7 @@ import time
 import threading
 import ollama 
 import pynvml
+import json
 
 # Global variables to track state and maximum usage
 monitoring_active = True    
@@ -68,7 +69,8 @@ def GPU_info_before():
 if __name__ == "__main__":
     GPU_info_before()
     
-    prompt = "Why is the sky blue?"
+    #prompt = "Why is the sky blue?"
+    prompt = input()
     print(f"The prompt is: {prompt}")
 
     monitor_thread = threading.Thread(target=monitor_ollama_resources_nvml)
@@ -99,3 +101,12 @@ if __name__ == "__main__":
         print("#####################################################\n")
 
     #print_info()# Call the function to print info
+
+    #sending information to a json file below
+    results = {
+    "gpu_util": f"{max_gpu_usage_percent:.2f}",
+    "vram_used": f"{max_vram_usage_mb:.2f}"
+    }   
+
+    with open("nvidiaMLPyTestIpe_gpu_stats.json", "w") as f:
+        json.dump(results, f)
