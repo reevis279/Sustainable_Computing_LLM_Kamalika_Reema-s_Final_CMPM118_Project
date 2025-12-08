@@ -111,7 +111,7 @@ if __name__ == "__main__":
         print(f"## Max VRAM Used: {max_vram_usage_mb:.2f} MB")
         print("#####################################################\n")
 
-    #print_info()#calling functon above to print info
+    print_info()#calling functon above to print info
 
     #sending information to a json file below
     results = {
@@ -119,7 +119,7 @@ if __name__ == "__main__":
     "vram_used": f"{max_vram_usage_mb:.2f}"
     }   
 
-    with open("gpu_stats.json", "w") as f:
+    with open("nvidiaLMPyTestGemma3Latest_gpu_stats.json", "w") as f:
         json.dump(results, f)
 
     
