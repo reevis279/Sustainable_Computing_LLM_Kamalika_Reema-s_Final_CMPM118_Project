@@ -40,3 +40,7 @@ Plan of Action 12/4/25<br>
 -Use SeaBorn Library for graph<br>
 -Make python script to authomate processs<br>
 -work on slide show <br>
+
+Python files used in the video demo in the final presentation are in the master branch.<br>
+They are named runConcurrent.py, nvidiaLMPyTestGemma3Latest.py, nvidiaMLPyTestGemma2Latest.py, nvidiaMLPyTestGemma2b.py, nvidiaMLPyTestIpe.py.<br>
+The other files are either .json files to keep track of data or files we used to follow tutorials for different softwares.<br>
