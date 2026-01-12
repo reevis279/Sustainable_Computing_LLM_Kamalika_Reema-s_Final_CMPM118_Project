@@ -10,11 +10,11 @@ Purpose of Project:<br>
 -Project currently measures VRAM and GPU usage<br>
 <br>
 Project was made with:<br>
--subprocess
--sys
--json
--numpy
--python
--ollama
+-subprocess<br>
+-sys<br>
+-json<br>
+-numpy<br>
+-python<br>
+-ollama<br>
 
 
